@@ -83,3 +83,13 @@ def determine_case(string: str) -> str:
     if string.isupper():
         return 'upper'
     return 'none'
+
+
+def amount_of_digits(string: str):  # потім нагадайте мені показати цікаве рішення з порівнянням стрічок
+    """На вхід програмі подається стрічка.
+    :return Скільки вона має цифр"""
+    counter = 0
+    for symbol in string:
+        if '0' <= symbol <= '9':
+            counter += 1
+    return counter
