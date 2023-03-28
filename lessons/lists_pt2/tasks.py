@@ -13,7 +13,7 @@ def multitask(initial_list: list[int]):
     initial_list[1] = 17
     initial_list.extend([4, 5, 6])
     del initial_list[0]
-    initial_list *= 2  # initial_list.extend(initial_list)
+    initial_list *= 2
     initial_list.insert(3, 25)
     return initial_list
 
